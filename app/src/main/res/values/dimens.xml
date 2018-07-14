@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="landwidth">70dp</dimen>
+    <dimen name="landheight">50dp</dimen>
+    <dimen name="butwidth">90dp</dimen>
+    <dimen name="buttheight">70dp</dimen>
+    <dimen name="buttHeight">90dp</dimen>
+
+
+</resources>

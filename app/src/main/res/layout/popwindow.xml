@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/portraitpop" />
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:background="@null"
+            android:id="@+id/small"
+            android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+
+        <Button
+            android:background="@null"
+            android:id="@+id/medium"
+            android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginStart="33dp" />
+
+        <Button
+            android:background="@null"
+            android:id="@+id/large"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginStart="38dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:background="@null"
+            android:id="@+id/small_shallow"
+            android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+
+        <Button
+            android:background="@null"
+            android:id="@+id/medium_shallow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginStart="33dp" />
+
+        <Button
+            android:background="@null"
+            android:id="@+id/large_shallow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="38dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/get_xy"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="127dp"
+        android:background="@null" />
+
+
+
+
+
+    <Button
+        android:background="@null"
+        android:id="@+id/btnMap"
+        android:layout_width="116dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+
+        android:layout_alignLeft="@+id/get_xy"
+        android:layout_alignStart="@+id/get_xy"
+        android:layout_alignTop="@+id/btnMap"
+        android:layout_marginTop="17dp"
+        />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="40dp"
+        android:layout_alignLeft="@+id/info"
+        android:layout_alignStart="@+id/info"
+        android:layout_below="@+id/info"
+
+        android:textSize="12dp" />
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:id="@+id/depth"
+        android:layout_alignBaseline="@+id/btnMap"
+        android:layout_alignBottom="@+id/btnMap"
+        android:layout_alignLeft="@+id/size"
+        android:layout_alignStart="@+id/size"
+        />
+
+
+
+</RelativeLayout>
